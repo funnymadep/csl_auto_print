@@ -1,0 +1,5 @@
+[config]
+name=李欣妍
+type=单词
+net=https://print.yingyutifen.cn/print/pc.html?aptmId=3229528
+

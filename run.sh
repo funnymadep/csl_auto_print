@@ -1,1 +1,1 @@
-python3  auto_print_click.py
+python3  auto_print_click_chrome.py

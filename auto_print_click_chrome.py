@@ -87,6 +87,4 @@ for text, Type in zip(search_texts, texts):
     except Exception as e:
         print(f"未找到元素：'{text}', 错误信息：{e}")
 
-driver.execute_script("window.print();")  # 执行 window.print() 函数
-
 driver.quit()

@@ -1,9 +1,11 @@
 [config]
 name=李欣妍
 type=单词
-net=https://print.yingyutifen.cn/print/pc.html?aptmId=3201076
+net=https://print.yingyutifen.cn/print/pc.html?aptmId=3319031
+fixdate=240612
 
 #1.name=后面为打印名字，type=后面可选单词或者阅读，net=后面为打印网址
 #2.这三个必须输正确否则代码不能正常运行
-#3.自己看手册，我什么都不知道
+#3.fixdate配合fix_date.cmd使用，根据fixdate修改pdf日期
+#4.自己看手册，我什么都不知道
 

@@ -70,6 +70,7 @@ def main():
         "version": 2,  # 另存为pdf，1 是默认打印机
         "isHeaderFooterEnabled": False,  # 是否勾选页眉和页脚
         "isCssBackgroundEnabled": True,  # 是否勾选背景图形
+        "isLandscapeEnabled": True, #横向
         "mediaSize": {
             "height_microns": 297000,
             "name": "ISO_A4",
@@ -121,7 +122,7 @@ def main():
                     print(f"未找到元素：'{text}', 错误信息：{e}")
         else:
             print("类型type错误, 请检查config.txt文件")
-
+    time.sleep(10)
     driver.quit()
 
 if __name__ == "__main__":

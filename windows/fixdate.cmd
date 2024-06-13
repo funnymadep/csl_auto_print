@@ -1,1 +1,1 @@
-python fix_date.py
+python .\\src\\fix_date.py

@@ -1,1 +1,1 @@
-python auto_print_click_chrome.py
+python .\\src\\auto_print_click_chrome.py

@@ -55,7 +55,7 @@ def file_rename_article(config):
             break  # 如果只想处理一个文件，可以加上break来提前结束循环
 
 def main():
-    config = read_config('.\\config.txt')
+    config = read_config('config.txt')
     # 获取参数
     _type = config.get('type', '')
     net = config.get('net', '')
@@ -89,7 +89,7 @@ def main():
     options.add_argument("--kiosk-printing")
 
     # 请确保 chrome_driver_path 指向正确的 ChromeDriver 位置
-    chrome_driver_path = ".\\chromedriver.exe"  # 请替换为你的 ChromeDriver 路径
+    chrome_driver_path = ".\\src\\chromedriver.exe"  # 请替换为你的 ChromeDriver 路径
     service = Service(chrome_driver_path)
     driver = webdriver.Chrome(service=service, options=options)
 

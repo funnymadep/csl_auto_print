@@ -1,1 +1,0 @@
-python .\\src\\fix_date.py

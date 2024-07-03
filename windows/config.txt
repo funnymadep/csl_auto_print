@@ -1,8 +1,8 @@
 [config]
 name=李欣妍
 type=单词
-net=https://print.yingyutifen.cn/print/pc.html?aptmId=3319031
-fixdate=20240612
+net=https://print.yingyutifen.cn/print/pc.html?aptmId=3826898
+fixdate=20240701
 
 
 

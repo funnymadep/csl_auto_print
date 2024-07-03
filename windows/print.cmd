@@ -1,1 +1,0 @@
-python .\\src\\auto_print_click_chrome.py
